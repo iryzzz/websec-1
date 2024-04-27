@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="stylesheet" href ="styles.css">
+    <script type = "text/javascript" src = "script.js"></script>
+</head>
+<body>
+    <div class="row centerAlign color">
+        <input type ="text" id="left" class = "input color border"/>
+        <select id="select1" class = "selectInput color border">
+            <option value ="sum">+</option>
+            <option value ="dif">-</option>
+            <option value ="mul">*</option>
+            <option value ="div">/</option>
+        </select>
+        <input type ="text" id="right" class = "input color border"/>
+    </div>
+    <button class ="row button color border" id = "button1" onClick="buttonClickHandler();">подсчитать</button>
+    <div class = "row result centerAlign color border" id="results" disabled></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.row {
+    display: block;
+}
+
+.input {
+    margin: 20px auto;
+}
+
+.button {
+    margin: 0 auto 20px auto;
+    font-weight: bold;
+}
+
+.result {
+    margin: auto;
+    width: 50%;
+    height: 80px;
+}
+
+.color{
+    background-color: rgb(186, 255, 194);
+    color:rgb(252, 10, 7);
+}
+
+.border {
+    border-color:rgb(252, 10, 7);
+    border-style:dashed;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(186, 255, 194);
+}
+
+.centerAlign {
+    text-align: center;
+}
